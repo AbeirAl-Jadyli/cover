@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+.top-par{
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+.top-par-list{
+    /* max-width: 1320px; */
+    display: flex;
+    margin: auto;
+}
+.sec-logo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.soc-icon{
+    background-color: rgb(78, 77, 77);
+    width: 50%;
+    border-radius: 50px  0  0 50px;
+}
+.icon-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* container */
+/* .container{
+    
+} */
+.container-section{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-sec1{
+    max-width: 700px;        /* من خلالها اقدر اضيف اكثر من كونتنت وخالي 2 عنصر او 3 وهكذا  */
+    text-align: center;
+    padding: 40px;
+}
+/* .btn-container{
+    
+} */
+.btn-cont{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+.btn-cont:hover{
+    background-color: black;
+    color: white;
+}
+.content-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* footer */
+/* .footer-container{
+    
+     
+} */
+.content-footer{
+    max-width: 1320px;
+     margin-left: auto;
+    margin-right: auto;
+}
+.cont-footer{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
